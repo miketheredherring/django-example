@@ -1,0 +1,32 @@
+{% extends 'genomics/base.html' %}
+
+{% block content %}
+    <div class='row'>
+        <div class='col-xs-12'>
+            <h1>Genes</h1>
+            <table class='table'>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Primary Inhertiance</th>
+                        <th>Active Disease Count</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for gene in object_list %}
+                        <tr>
+                            <td>
+                                <a href='{{ gene.get_absolute_url }}'>
+                                    {{ gene.name }}
+                                </a>
+                            </td>
+                            <td>{{ gene.primary_inheritance|default:'Not provided' }}</td>
+                            <!-- TODO: Fill in this column with a count of the number of 'active' `Disease` connections to this `Gene` -->
+                            <td>0</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+{% endblock %}

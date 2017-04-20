@@ -18,4 +18,7 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+
+    # `genomics` app URLs
+    url(r'', include('genomics.urls'))
 ]
