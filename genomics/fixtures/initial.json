@@ -1,0 +1,142 @@
+[
+  {
+    "model": "genomics.gene",
+    "pk": 1,
+    "fields": {
+      "ens_gene": "ENSG00000172893",
+      "name": "DHCR7",
+      "chromosome": "11",
+      "start": 71139239,
+      "end": 71163914,
+      "active": true
+    }
+  },
+  {
+    "model": "genomics.disease",
+    "pk": 1,
+    "fields": {
+      "slug": "smith-lemli-opitz-syndrome",
+      "name": "Smith-Lemli-Opitz syndrome",
+      "summary": "Smith-Lemli-Opitz syndrome is a developmental disorder that affects many parts of the body. This condition is characterized by distinctive facial features, small head size (microcephaly), intellectual disability or learning problems, and behavioral problems. Many affected children have the characteristic features of autism, a developmental condition that affects communication and social interaction. Malformations of the heart, lungs, kidneys, gastrointestinal tract, and genitalia are also common. Infants with Smith-Lemli-Opitz syndrome have weak muscle tone (hypotonia), experience feeding difficulties, and tend to grow more slowly than other infants. Most affected individuals have fused second and third toes (syndactyly), and some have extra fingers or toes (polydactyly). The signs and symptoms of Smith-Lemli-Opitz syndrome vary widely. Mildly affected individuals may have only minor physical abnormalities with learning and behavioral problems. Severe cases can be life-threatening and involve profound intellectual disability and major physical abnormalities.",
+      "primary_inheritance": "AR"
+    }
+  },
+  {
+    "model": "genomics.gene",
+    "pk": 2,
+    "fields": {
+      "ens_gene": "ENSG00000001626",
+      "name": "CFTR",
+      "chromosome": "7",
+      "start": 117105838,
+      "end": 117356025,
+      "active": true
+    }
+  },
+  {
+    "model": "genomics.disease",
+    "pk": 2,
+    "fields": {
+      "slug": "cystic-fibrosis",
+      "name": "Cystic fibrosis",
+      "summary": "Cystic fibrosis is a disease in which the mucus that the body produces to protect the linings and tissue of various organs is abnormally thick and sticky. Symptoms begin soon after birth. Mucus clogs the airways, interfering with breathing, causing coughing, wheezing, inflammation, and frequent lung infections. Over time the lungs are permanently damaged, leading to the formation of cysts and scar tissue. The mucus can also build up in the pancreas, impairing the production of insulin and the release of digestive enzymes. Related symptoms include diarrhea, malnutrition, weight loss, and poor growth. Men with cystic fibrosis are usually infertile due to absence of the tubes that carry sperm to the testes (congenital absence of the vas deferens), while women may experience problems during pregnancy. Cystic fibrosis was once fatal in childhood, but improved treatments have allowed individuals with this disease to live into adulthood. CFTR-related disorders include pancreatitis, bronchiectasis, and congenital absence of the vas deferens, which can each occur isolated from the classic cystic fibrosis phenotype.",
+      "primary_inheritance": "AR"
+    }
+  },
+  {
+    "model": "genomics.disease",
+    "pk": 3,
+    "fields": {
+      "slug": "congenital-bilateral-absence-of-the-vas-deferens",
+      "name": "Congenital bilateral absence of the vas deferens",
+      "summary": "Congenital bilateral absence of vas deferens is a condition that only affects males. Males with this condition have undeveloped or underdeveloped vas deferens, the tubes that carry sperm out of the testes. Thus, affected males are unable to father children without assisted reproductive technology. This condition can also occur as a symptom of cystic fibrosis, which is caused by changes in the same gene.",
+      "primary_inheritance": "AR"
+    }
+  },
+  {
+    "model": "genomics.disease",
+    "pk": 4,
+    "fields": {
+      "slug": "pancreatitis-hereditary-pctt",
+      "name": "Pancreatitis, hereditary; PCTT",
+      "summary": "N/A",
+      "primary_inheritance": "AD"
+    }
+  },
+  {
+    "model": "genomics.gene",
+    "pk": 3,
+    "fields": {
+      "ens_gene": "ENSG00000117054",
+      "name": "ACADM",
+      "chromosome": "1",
+      "start": 76190036,
+      "end": 76253260,
+      "active": true
+    }
+  },
+  {
+    "model": "genomics.disease",
+    "pk": 5,
+    "fields": {
+      "slug": "medium-chain-acyl-coa-dehydrogenase-deficiency",
+      "name": "Medium-chain Acyl-CoA dehydrogenase deficiency",
+      "summary": "Medium chain acyl-CoA dehydrogenase (MCAD) deficiency is a condition that affects the body's ability to break down fat to use as energy. Symptoms such as vomiting, low blood sugar and blood ketones (hypoketotic hypoglycemia), and low energy generally appear in early childhood. These problems are triggered by fasting or illness. Individuals with this disorder can experience complications including seizures, liver and respiratory problems which may progress to coma, and sudden death.",
+      "primary_inheritance": "AR"
+    }
+  },
+  {
+    "model": "genomics.gene",
+    "pk": 4,
+    "fields": {
+      "ens_gene": "ENSG00000012048",
+      "name": "BRCA1",
+      "chromosome": "17",
+      "start": 41196312,
+      "end": 41277500,
+      "active": false
+    }
+  },
+  {
+    "model": "genomics.disease",
+    "pk": 6,
+    "fields": {
+      "slug": "breast-ovarian-cancer-familial-susceptibility",
+      "name": "Breast-ovarian cancer, familial, susceptibility to, 1; BROVCA1 BREAST CANCER, FAMILIAL, SUSCEPTIBILITY TO, 1, included",
+      "summary": "N/A",
+      "primary_inheritance": "AD"
+    }
+  },
+  {
+    "model": "genomics.gene",
+    "pk": 5,
+    "fields": {
+      "ens_gene": "ENSG00000102081",
+      "name": "FMR1",
+      "chromosome": "X",
+      "start": 146993469,
+      "end": 147032645,
+      "active": false
+    }
+  },
+  {
+    "model": "genomics.disease",
+    "pk": 7,
+    "fields": {
+      "slug": "fragile-x-tremorataxia-syndrome-fxtas",
+      "name": "Fragile x tremor/ataxia syndrome; FXTAS",
+      "summary": "Jacquemont et al. (2007) provided a review of fragile X syndrome, which they characterized as a neurodevelopmental disorder, and FXTAS, which they characterized as a neurodegenerative disorder. Amiri et al. (2008) provided a review of FXTAS and noted that the pathogenesis of the disorder is distinct from that in fragile X syndrome. FXTAS results form a toxic gain of function of FMR1 RNA, whereas fragile X syndrome results from a loss of FMR1 function. The penetrance of FXTAS in male carriers aged 50 years and over, ascertained through families with a fragile X syndrome proband, is at least 33% (Hagerman and Hagerman, 2004); its penetrance in female carriers is approximately 5-10% (Greco et al., 2008).",
+      "primary_inheritance": "XLD"
+    }
+  },
+  {
+    "model": "genomics.disease",
+    "pk": 8,
+    "fields": {
+      "slug": "fragile-x-mental-retardation-syndrome",
+      "name": "Fragile x mental retardation syndrome",
+      "summary": "Fragile X mental retardation is characterized by moderate to severe mental retardation, macroorchidism, and distinct facial features, including long face, large ears, and prominent jaw. In most cases, the disorder is caused by the unstable expansion of a CGG repeat in the FMR1 gene and abnormal methylation, which results in suppression of FMR1 transcription and decreased protein levels in the brain (Devys et al., 1993). - Reviews Fragile X syndrome accounts for about one-half of cases of X-linked mental retardation and is the second most common cause of mental impairment after trisomy 21 (190685) (Rousseau et al., 1995). McCabe et al. (1999) summarized the proceedings of a workshop on the fragile X syndrome held in December 1998. Jacquemont et al. (2007) provided a review of fragile X syndrome, which they characterized as a neurodevelopmental disorder, and FXTAS, which they characterized as a neurodegenerative disorder.",
+      "primary_inheritance": "XLD"
+    }
+  }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "gene": "DHCR7",
+        "active_diseases": ["smith-lemli-opitz-syndrome"],
+        "inactive_diseases": []
+    },
+    {
+        "gene": "CFTR",
+        "active_diseases": ["cystic-fibrosis"],
+        "inactive_diseases": ["congenital-bilateral-absence-of-the-vas-deferens", "pancreatitis-hereditary-pctt"]
+    },
+    {
+        "gene": "ACADM",
+        "active_diseases": ["medium-chain-acyl-coa-dehydrogenase-deficiency"],
+        "inactive_diseases": []
+    },
+    {
+        "gene": "BRCA1",
+        "active_diseases": [],
+        "inactive_diseases": ["breast-ovarian-cancer-familial-susceptibility"]
+    },
+    {
+        "gene": "FMR1",
+        "active_diseases": ["fragile-x-tremorataxia-syndrome-fxtas"],
+        "inactive_diseases": ["fragile-x-mental-retardation-syndrome"]
+    }
+]

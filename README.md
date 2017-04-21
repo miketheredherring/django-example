@@ -1,17 +1,17 @@
 # MiniPeeks Genomic App
-Welcome to the home page of MiniPeeks (no relation to any competitors, what-so-ever), a genetics information company which offers a product which will analyze a variety of genes and diseases from next generation sequencing (NGS) data! At MiniPeeks we are always trying to expand our current offering by including more diseases whenever we have the ability to cover them with sufficient specificity and selectivity. As a result, our genetic counselors have requested the ability to connect our gene and disease information together, and be able to create/edit new gene-disease associations and diseases, without them showing until requested.
+Welcome to the home page of MiniPeeks (no relation to any competitors, what-so-ever), a genetics information company which offers a product which will analyze a variety of genes and diseases from next generation sequencing (NGS) data! At MiniPeeks we are always trying to expand our current offering by including more diseases whenever we have the ability to cover them with sufficient specificity and selectivity. As a result, our genetic counselors have requested the ability to connect our gene and disease information together. They should be able to create/change these gene-disease connections without them reflecting in the final analysis, until they are 'activated'.
 
 The following user story is something that you have been tasked with to enhance our platform, pushing our ability to provide a cutting edge analysis to our patients:
 
 ## Setup
 1. Clone this git repo locally and setup a Python/Django environment to work with.
-2. The provided requirements.txt has all the dependancies you will need.
-3. We will be using SQLite as our database of choice here, because its awesome, but mainly so that the final database can be zipped up with the rest of your code and sent back to us!
+2. The provided requirements.txt has all the dependencies you will need.
+3. We will be using SQLite as our database of choice here, because it's awesome, but mainly so that the final database can be zipped up with the rest of your code and sent back to us!
 4. Load the provided data in `genomics/fixtures/initial.json` for a set of genes and diseases to test with.
 6. Feel free to install additional packages as you see fit to complete the tasks below.
 
 ## Background
-As a genetic counselor, I would like to be able to view all of our disease information in a similar fashion to the gene pages already created (obviously if you can make it look better, that'd be awesome, but not required). I would also like to be able to make connections between genes and diseases in our platform, where a disease can be associated with **multiple** genes and a gene can be associated with **multiple** diseases. Additionally, I should be able to specify which gene-disease connections are **active**. As a genetic counselor, this allows me to expand our gene-disease database without affecting our current analysis being offered. Once we decide to release our 'V2', the **not active** connections easily can be switched to **active**, thus being included in our offering!
+As a genetic counselor, I would like to be able to view all of our disease information in a similar fashion to the gene pages already created (obviously if you can make it look better, that'd be awesome, but not required). I would also like to be able to make connections between genes and diseases in our platform, where a disease can be associated with **multiple** genes and a gene can be associated with **multiple** diseases. Additionally, I should be able to specify which gene-disease connections are **active**. As a genetic counselor, this allows me to expand our gene-disease database without affecting our current analysis being offered. Once we decide to release our 'V2' of the analysis, the **not active** connections easily can be switched to **active**, thus being included in our offering!
 Since I don't know how to use databases either, I should be able to view both a list and detail level page for genes and diseases, exposing the above information; more details below in the AC.
 
 ## Acceptance Criteria

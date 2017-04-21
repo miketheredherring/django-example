@@ -72,6 +72,12 @@ class Gene(models.Model):
     ) + (('X', 'X'), ('Y', 'Y'), ('M', 'M'))
     chromosome = models.CharField(max_length=2)
 
+    # Genomic coordinate for the beginning of `Gene`
+    start = models.PositiveIntegerField()
+
+    # Genomic coordinate for the end of `Gene`
+    end = models.PositiveIntegerField()
+
     # Is this `Gene` active in the system currently?
     active = models.BooleanField(default=False)
 
