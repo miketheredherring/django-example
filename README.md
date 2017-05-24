@@ -36,13 +36,8 @@ Here is a table detailing the behavior of whether a gene and/or disease should b
 * Update `genomics/templates/genomics/gene-detail.html` to include information about all of the diseases connected to the specified gene.
     * Each gene record should have a hyperlink to navigate to the associated disease detail page and should indicate whether or not it is an **active** connection with the specified gene.
 
-## Bonus Round
-* Provide an interface which allows the creation/management of these gene-disease connections.
-* Assume the AC got changed at the last minute, and now we want to be able to record the date and time associated with when a disease was last made **active** for a particular gene. Write the code necessary to capture this information, then display it in the platform where relevant.
-* Develop a dashboard landing page, include some interesting data/design!
-
 ## Tips
-1. Data is only as valuable as it is interpretable, the easier it is to read and digest the data you present, the better! Choosing what to display is just as important as choosing what not to display. Many of the AC are purposefully left open ended to see what you can come up with!
+1. Data is only as valuable as it is interpretable, the easier it is to read and digest the data you present, the better! Choosing what to display is just as important as choosing what not to display. Many of the AC are purposefully left open ended to see what you can come up with, have fun with it!
 2. Prototype for 1x; Build for 10x; Engineer for 100x.
 3. Any questions regarding the project, please feel free to email developers@genepeeks.com for clarifying information.
 
